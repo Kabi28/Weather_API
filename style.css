@@ -7,7 +7,7 @@ body{
     background-size: cover;
     font-family: "DynaPuff", system-ui;
     letter-spacing: 1.5px;
-    line-height: 1.2;
+    line-height: 2;
 }
 #main,#result{
     width: 70%;
@@ -18,10 +18,15 @@ body{
 
 }
 input{
-    height: 25px;
+    height: 35px;
     width: 40%;
     border-radius: 20px;
     border:solid 2px black;
+}
+h1{
+    position: relative;
+    top: 3rem;
+    padding: 10px;
 }
 @media (max-width:560px) {
     input{
